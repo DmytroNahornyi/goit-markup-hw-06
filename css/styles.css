@@ -557,6 +557,8 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-mail {
     box-sizing: border-box;
@@ -570,6 +572,8 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     line-height: 1.25;
     padding-left: 16px;
     color: rgba(255, 255, 255, 0.6);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* текст и формы заполнения */
 .header-modal {
@@ -603,7 +607,8 @@ input:focus-within {
     position: absolute;
     margin-top: 14px;
     margin-left: 15px;
-
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 input, textarea {
     outline: none;
@@ -660,7 +665,8 @@ textarea {
     font-size: 16px;
     line-height: 1.88;   
     color: var(--footer-logo); 
-
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button button{
     margin: 0 auto;
@@ -672,6 +678,7 @@ textarea {
 .button-mail:hover,
 .button-mail:active {
     background: #186db3;
+
 }
 
 /* Корректировка кнопок */
