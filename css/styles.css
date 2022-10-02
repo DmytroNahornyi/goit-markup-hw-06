@@ -554,9 +554,11 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     width: 448px;
     height: 40px;
     margin-bottom: 10px;
+    margin-top: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
+    /* position: relative; */
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -583,17 +585,17 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     text-align: center;
     margin-bottom: 12px;
 }
-.style-text {
+.style-text label{
     font-size: 12px;
     line-height: 14px;
     color: var(--header-contact);
-    margin-bottom: 4px;
+
 }
 
 .input-wrap {
     position: relative;
 }
-.input-wrap:focus-within {
+.style-text:focus-within {
     fill: var(--button-hero);
     border-radius: 4px;
 
@@ -603,9 +605,9 @@ input:focus-within {
     border-radius: 4px;
 }
 
-.test {
+.test{
     position: absolute;
-    margin-top: 14px;
+    margin-top: 32px;
     margin-left: 15px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
